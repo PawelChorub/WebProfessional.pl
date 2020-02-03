@@ -1,0 +1,282 @@
+body
+{
+	background-color: #303030;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	
+}
+.social-sticky
+{
+	z-index:1;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+}
+
+.tail1
+{	
+	
+	width: 100%;
+	height: 500px;
+	background: url("img/silnik.jpg")center no-repeat;
+	background-size:cover;
+	
+	padding-top: 100px;
+}
+.tail2
+{
+	background: url("img/silnik2.jpg")center no-repeat;
+	background-size:cover;
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+	margin-top: 2%;
+}
+
+.przycisk {
+	
+	
+	width: 45%;
+	height: 35px;
+	margin: 0 auto;
+	color: white;
+	
+	text-align: center;
+	font-size: 18px;
+	vertical-align: middle;
+	
+	margin-bottom: 10px;
+	background-color: black;
+	opacity: 0.6;
+}
+.przycisk:hover
+{
+	
+	opacity: 0.8;
+	border: 1px solid white;
+}
+.robo
+{
+	border: 1px solid white;
+}
+.textLabel1
+{
+	
+	height: auto;
+	margin: 0 auto;
+	color: white;
+	
+	text-align: center;
+	font-size: 20px;
+	vertical-align: middle;
+	
+	margin-bottom: 10px;
+	background-color: black;
+	opacity: 0.8;
+	
+	padding-bottom: 2vh;
+	padding-top: 3vh;
+}
+.tail3
+{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 39px;
+	padding-right: 39px;
+}
+.tail4-title
+{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 22px;
+	padding-left: 39px;
+	padding-right: 39px;
+	
+}
+.tail4
+{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	padding-left: 39px;
+	padding-right: 39px;
+	
+}
+.forecast-widget
+{
+	margin-left: 10%;
+	float: left;
+	width: 300px;
+	padding-left: 5px;
+}
+.forecast-paragraph
+{
+	
+	width: 50%;
+	min-width: 300px;
+	max-width: 800px;
+	height: 250px;
+	text-align: center;
+	text-align: justify;
+	display: table-cell;
+	vertical-align: middle;
+    padding-left: 42px;
+	padding-right: 42px;
+	
+	font-size: 18px;
+	
+}
+.pole
+{
+	background-color: rgb(175, 168, 168);
+	opacity: 0.9;
+	width: 100px;
+	height: 75px;
+	border: solid 1px;
+	color: black;
+	padding-top: 3.5vh;
+	text-align: center;
+	font-weight: 700;
+	
+}
+.textLabel2
+{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	color: white;
+	
+	text-align: center;
+	font-size: 20px;
+	vertical-align: middle;
+	
+	margin-bottom: 10px;
+	background-color: black;
+	opacity: 0.8;
+	
+
+	margin-left: 3rem;
+	margin-right: 3rem;
+
+	padding-bottom: 2vh;
+	padding-top: 3vh;
+}
+
+.progress-table
+{
+	margin-top: 3vh;
+	font-size: 16px;
+	width : 100%;		
+}
+.progress-table th
+{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.example
+{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+* {
+	box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+  }
+  
+  form.example button:hover {
+	background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+/*--------------*\
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
